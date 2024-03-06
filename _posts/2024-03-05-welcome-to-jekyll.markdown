@@ -1,29 +1,17 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-03-05 12:01:51 -0500
+title:  "Happy 3 years my love"
+date:   2024-03-05 00:01:00 -0500
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Dear Tori,
 
-Jekyll requires blog post files to be named according to the following format:
+  Life is certainly a rolller coaster, and we've had our fair share of that. It's become a staple of our date nights to have something go horribly wrong but we still end up enjoying the night. I even have a hard time remembering some of the mishaps because they bother me so little when I'm with you. We've made so many beautiful memories, going on trips, staying in, little date nights, big date nights, and all the other time we spend together. I know I'm not always the most in touch with my emotions or as communicative as I should be, but I really want you to know how much I appreciate you. I hope I'm not failing to notice all the little things you do because you love me. All the little snack care packages, planned date nights, and time spent doing the things I enjoy make me feel so loved. I am so unbelievably lucky to call you mine.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+  The two of us have done so much growing together over the past 3 years. It's so crazy to think about how much we've both changed. It's hard to tell at times because we are changing together, so we don't see the process over time. I literally grew a beard in these past 3 years. As time keeps marching forward, I'm excited to see what will happen. We both have so many great things in our futures and tackling it together is going to be awesome.
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+  I love that you'll play Minecraft or watch Star Wars and anime with me. I hope I do things that make you feel as loved as you make me feel. You continue to make me a better man every day. 
 
-Jekyll also offers powerful support for code snippets:
+  I love you infinity,
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+  Your boy
