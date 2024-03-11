@@ -19,19 +19,21 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Tori and Alex's Awesome Website
-email: alexjurcago@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I love you infinity <3
-baseurl: "tori3" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
 
+collections:
+  funstuff:
+    output: true
+    permalink: /:collection/:title
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

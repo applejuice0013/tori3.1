@@ -1,0 +1,8 @@
+---
+layout: page
+title: Stuff
+---
+
+{% for funstuff in site.funstuff%}
+<h4><a href= "{{funstuff.url}}">{{funstuff.title}}</a></h4>
+{%endfor%}
