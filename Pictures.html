@@ -8,28 +8,29 @@ title: Pictures
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gallery</title>
+    <title>Image Collage</title>
     <style>
-        .gallery {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            grid-gap: 10px;
+        .collage {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
         }
-        .gallery img {
-            width: 100%;
-            height: auto;
-            display: block;
+        .image {
+            width: 200px;
+            height: 200px;
+            margin: 5px;
         }
     </style>
 </head>
 <body>
-    <div class="gallery">
-        {% assign allowed_extensions = ".jpg,.jpeg,.JPG,.PNG,.png" | split: "," %}
-        {% assign image_files = site.static_files | where_exp: "item", "allowed_extensions contains item.extname" | where_exp: "item", "item.path contains 'assets/ToriSite/'" %}
-        {% for image in image_files %}
-            <img src="{{ image.path }}" alt="{{ image.name }}">
+    <div class="collage">
+        {% for image in site.static_files %}
+            {% if image.path contains 'assets/ToriSite/' %}
+                {% if image.extname == '.jpg' or image.extname == '.png' or image.extname =='.jpeg'%}
+                    <img src="{{ image.path }}" class="image">
+                {% endif %}
+            {% endif %}
         {% endfor %}
     </div>
-     <img src="assets/ToriSite/3876AE09-5607-4605-9F2A-3F2E03033462.jpg" alt="Name.jpg">
 </body>
 </html>
