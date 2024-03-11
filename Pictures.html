@@ -19,6 +19,8 @@ title: Pictures
             width: 200px;
             height: 200px;
             margin: 5px;
+            background-size: cover;
+            background-position: center;
         }
     </style>
 </head>
@@ -26,8 +28,8 @@ title: Pictures
     <div class="collage">
         {% for image in site.static_files %}
             {% if image.path contains 'assets/ToriSite/' %}
-                {% if image.extname == '.jpg' or image.extname == '.png' or image.extname =='.jpeg' or image.extname == '.JPG' or image.extname == '.PNG' or image.extname == '.HEIC' %}
-                    <img src="{{ site.baseurl }}{{ image.path }}" class="image">
+                {% if image.extname == '.jpg' or image.extname == '.png' or image.extname =='.jpeg' or image.extname == '.JPG' or image.extname == '.PNG' %}
+                    <div class="image" style="background-image: url('{{ site.baseurl }}{{ image.path }}');"></div>
                 {% endif %}
             {% endif %}
         {% endfor %}
