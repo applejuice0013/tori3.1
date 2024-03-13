@@ -2,7 +2,12 @@
 layout: page
 title: Stuff
 ---
-
+<!DOCTYPE html>
+<html>
+<body>
+  <p>I fixed this page to make it work how I intended bc I am a <b><u>baller</u></b></p>
 {% for funstuff in site.funstuff%}
-<h4><a href= "{{funstuff.url}}">{{funstuff.title}}</a></h4>
-{%endfor%}
+<h4><a href= "{{ site.baseurl }}{{funstuff.url}}">{{funstuff.title}}</a></h4>
+{%endfor%}  
+</body>
+</html>
