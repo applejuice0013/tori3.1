@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Minecraft Log"
+title:  "Minecraft Log Day 1"
 date:   2024-03-10 00:01:00 -0500
 categories: jekyll update
 ---
